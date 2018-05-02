@@ -21,5 +21,6 @@ class Dog
 
 def self.new(name)
   @@all << name
+end
 
 end
