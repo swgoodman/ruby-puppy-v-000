@@ -9,6 +9,7 @@ class Dog
   def initialize(name)
     @@all << name
     @name = name
+    binding.pry
   end
 
   def self.clear_all
