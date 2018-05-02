@@ -19,4 +19,7 @@ class Dog
     puts @@all
   end
 
+def self.new(name)
+  @@all << name
+
 end
