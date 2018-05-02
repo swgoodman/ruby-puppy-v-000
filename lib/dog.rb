@@ -16,7 +16,7 @@ class Dog
   end
 
   def self.all
-    puts "#{@@all}"
+    what = puts "#{@@all}"
     binding.pry
   end
 
